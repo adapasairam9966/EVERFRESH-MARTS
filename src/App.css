@@ -1,0 +1,116 @@
+/* Root container */
+#root {
+  margin: auto;
+  background-color: #f8f9fa;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ================================
+   Navbar Styling
+================================= */
+
+/* Active link style */
+.navbar .nav-link.active {
+  color: #ffc107 !important; /* warning yellow */
+  font-weight: bold;
+  border-bottom: 2px solid #ffc107;
+}
+
+/* Hover style */
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+  background-color: rgba(255, 193, 7, 0.1);
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ffc107 !important;
+}
+
+/* Cart badge */
+.navbar .badge {
+  font-size: 0.7rem;
+  padding: 0.4em 0.6em;
+}
+
+/* Search input */
+.navbar .form-control {
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+.navbar .btn-warning {
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-weight: 500;
+}
+
+/* ================================
+   Text Utilities
+================================= */
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ================================
+   Mobile Navbar
+================================= */
+@media (max-width: 991px) {
+  .custom-navbar {
+    padding: 0.75rem 0.5rem;
+    background-color: #1b1f24; /* slightly darker */
+  }
+
+  .navbar-brand {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+  }
+
+  #navbarNav .navbar-nav .nav-item {
+    margin: 8px 0;
+  }
+
+  #navbarNav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+  }
+
+  #navbarNav .nav-link.active {
+    background: rgba(255, 255, 255, 0.08);
+    border: 0;
+    box-shadow: none;
+  }
+
+  /* Search bar full width on mobile */
+  .navbar .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navbar .btn-warning {
+    width: 100%;
+  }
+}

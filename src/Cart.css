@@ -1,0 +1,43 @@
+/* Product Image */
+.itemimage {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Cart Item Card */
+.cart-item-card {
+  border-radius: 16px;
+  padding: 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cart-item-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Product Title */
+.cart-item-card h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* Price & Small Text */
+.cart-item-card p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.cart-item-card small {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* Right Summary Card */
+.summary-card {
+  border-radius: 16px;
+  background: #fdfdfd;
+}

@@ -1,0 +1,28 @@
+/* Order Card */
+.order-card {
+  border-radius: 18px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Order Item inside each card */
+.order-item {
+  background: #f9fafb;
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+
+.order-item:hover {
+  background: #f1f5f9;
+}
+
+/* Footer Buttons */
+.order-card .btn {
+  border-radius: 10px;
+  padding: 6px 14px;
+  font-weight: 500;
+}
