@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { registerUser } from "./store";
-import "./Signup.css";
+import "./SignUp.css";
 
 function Signup() {
   const navigate = useNavigate();

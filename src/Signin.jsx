@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 
-import "./Signup.css";
+import "./SignUp.css";
 import { loginUser } from "./store";
 
 function Signin({ setIsLoggedIn }) {
