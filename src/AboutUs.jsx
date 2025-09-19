@@ -16,7 +16,7 @@ function AboutUs() {
         <div className="row align-items-center mb-5">
           <div className="col-md-6">
             <img
-              src="public/1.jpeg"
+              src="/1.jpeg"
               alt="Who We Are"
               className="img-fluid rounded-3 shadow"
             />
@@ -36,7 +36,7 @@ function AboutUs() {
         <div className="row align-items-center flex-md-row-reverse mb-5">
           <div className="col-md-6">
             <img
-              src="public/2.jpeg"
+              src="/2.jpeg"
               alt="Our Mission"
               className="img-fluid rounded-3 shadow"
             />
@@ -86,7 +86,7 @@ function AboutUs() {
         <div className="row align-items-center mb-5">
           <div className="col-md-6">
             <img
-              src="public/4.jpeg"
+              src="/4.jpeg"
               alt="Why Choose Us"
               className="img-fluid rounded-3 shadow"
             />
