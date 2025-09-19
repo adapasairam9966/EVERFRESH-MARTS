@@ -69,7 +69,7 @@ function Home() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 rounded bg-light"
-                  src={"public/milk/all milk.jpg"}
+                  src={"/milk/all milk.jpg"}
                   alt="milk products"
                   style={{ objectFit: 'contain', height: '400px' }}
                 />
@@ -81,7 +81,7 @@ function Home() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 rounded bg-light"
-                  src={"public/veg11.jpg"}
+                  src={"/veg11.jpg"}
                   alt="Organic vegetables"
                   style={{ objectFit: 'contain', height: '400px' }}
                 />
@@ -93,7 +93,7 @@ function Home() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 rounded bg-light"
-                  src={"public/fruits/all fruits.jpg"}
+                  src={"/fruits/all fruits.jpg"}
                   alt="Fresh fruits"
                   style={{ objectFit: 'contain', height: '400px' }}
                 />
@@ -155,7 +155,7 @@ function Home() {
         <div className="col-md-3">
           <div className="card shadow-sm rounded-4 h-100 menu-card">
             <img
-              src="public/veg11.jpg"
+              src="/veg11.jpg"
               className="card-img-top rounded-top"
               alt="Veg"
               style={{ objectFit: "cover", height: "250px" }}
@@ -176,7 +176,7 @@ function Home() {
         <div className="col-md-3">
           <div className="card shadow-sm rounded-4 h-100 menu-card">
             <img
-              src="public/nonveg.jpg"
+              src="/nonveg.jpg"
               className="card-img-top rounded-top"
               alt="Non Veg"
               style={{ objectFit: "cover", height: "250px" }}
@@ -197,7 +197,7 @@ function Home() {
         <div className="col-md-3">
           <div className="card shadow-sm rounded-4 h-100 menu-card">
             <img
-              src="public/fruits/all fruits.jpg"
+              src="/fruits/all fruits.jpg"
               className="card-img-top rounded-top"
               alt="Fresh Fruits"
               style={{ objectFit: "cover", height: "250px" }}
@@ -218,7 +218,7 @@ function Home() {
         <div className="col-md-3">
           <div className="card shadow-sm rounded-4 h-100 menu-card">
             <img
-              src="public/milk/all milk.jpg"
+              src="/milk/all milk.jpg"
               className="card-img-top rounded-top"
               alt="Fresh Milk"
               style={{ objectFit: "cover", height: "250px" }}
